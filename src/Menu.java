@@ -41,8 +41,16 @@ public class Menu extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
@@ -68,7 +76,7 @@ public class Menu extends javax.swing.JFrame {
         prueba.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         prueba.setForeground(new java.awt.Color(102, 102, 255));
         prueba.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        prueba.setText("Papa");
+        prueba.setText("Espinaca");
         prueba.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         prueba.setFocusCycleRoot(true);
         prueba.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -81,37 +89,67 @@ public class Menu extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(102, 102, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel1.setText("jLabel1");
+        jLabel1.setText("Champiñon");
 
         jLabel2.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(102, 102, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel2.setText("jLabel2");
+        jLabel2.setText("Brócoli");
 
         jLabel3.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(102, 102, 255));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel3.setText("jLabel3");
+        jLabel3.setText("Berenjena");
 
         jLabel4.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(102, 102, 255));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel4.setText("jLabel4");
+        jLabel4.setText("Avena");
 
         jLabel5.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(102, 102, 255));
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel5.setText("jLabel5");
+        jLabel5.setText("Patata");
+
+        jLabel8.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel8.setText("Huevo");
+
+        jLabel9.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel9.setText("Lentejas");
+
+        jLabel10.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel10.setText("Pescado");
+
+        jLabel12.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel12.setText("Aceite de oliva");
+
+        jLabel13.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel13.setText("Aguacate");
+
+        jLabel14.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel14.setText("Chía");
+
+        jLabel15.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel15.setText("Nuez");
 
         jLabel6.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(102, 102, 255));
-        jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel6.setText("jLabel6");
+        jLabel6.setText("Cerdo");
 
         jLabel7.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(102, 102, 255));
-        jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel7.setText("jLabel7");
+        jLabel7.setText("Quinoa");
+
+        jLabel11.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel11.setText("Calabaza");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -130,20 +168,31 @@ public class Menu extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(carbohidrato_comple)
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jLabel7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 81, Short.MAX_VALUE)
                         .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 81, Short.MAX_VALUE))
+                    .addComponent(jLabel7)
+                    .addComponent(jLabel11))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel9, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel10, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(proteina, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel8, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addGap(77, 77, 77)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel12, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel13, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel14, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel15, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(319, Short.MAX_VALUE)
                 .addComponent(menu)
                 .addGap(264, 264, 264))
             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel1Layout.createSequentialGroup()
-                    .addContainerGap(558, Short.MAX_VALUE)
-                    .addComponent(proteina)
-                    .addGap(93, 93, 93)
+                    .addContainerGap(724, Short.MAX_VALUE)
                     .addComponent(grasa)
                     .addContainerGap()))
         );
@@ -155,30 +204,38 @@ public class Menu extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(carbohidrato)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(carbohidrato_comple)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(carbohidrato_comple)
+                            .addComponent(proteina))
                         .addGap(33, 33, 33)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(prueba)
-                            .addComponent(jLabel4))
+                            .addComponent(jLabel4)
+                            .addComponent(jLabel8)
+                            .addComponent(jLabel12))
                         .addGap(38, 38, 38)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel1)
-                            .addComponent(jLabel5))
+                            .addComponent(jLabel5)
+                            .addComponent(jLabel9)
+                            .addComponent(jLabel13))
                         .addGap(51, 51, 51)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel2)
-                            .addComponent(jLabel6))
+                            .addComponent(jLabel10)
+                            .addComponent(jLabel14)
+                            .addComponent(jLabel7))
                         .addGap(54, 54, 54)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel3)
-                            .addComponent(jLabel7))))
+                            .addComponent(jLabel15)
+                            .addComponent(jLabel6)
+                            .addComponent(jLabel11))))
                 .addGap(0, 73, Short.MAX_VALUE))
             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel1Layout.createSequentialGroup()
                     .addGap(70, 70, 70)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(grasa)
-                        .addComponent(proteina))
+                    .addComponent(grasa)
                     .addContainerGap(326, Short.MAX_VALUE)))
         );
 
@@ -197,8 +254,7 @@ public class Menu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void pruebaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pruebaMouseClicked
-        Enfermedad0 a = new Enfermedad0();
-        a.setVisible(true);
+        
     }//GEN-LAST:event_pruebaMouseClicked
     
     /**
@@ -241,12 +297,20 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JLabel carbohidrato_comple;
     private javax.swing.JLabel grasa;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel menu;
     private javax.swing.JLabel proteina;
