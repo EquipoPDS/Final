@@ -1,0 +1,10 @@
+--------Datos del Usuario--------
+__________________________________
+
+Nombre : fa
+Apellido: refe
+Email: va@gmail.com
+Peso: 78 Kg.
+Altura: 168 Cm.
+Género: Otro
+Enfermedad: Ninguno

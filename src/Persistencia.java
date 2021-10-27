@@ -8,7 +8,7 @@ public class Persistencia {
         PrintWriter pw = null;
         try
         {
-            fichero = new FileWriter("C:/Users/PC Mateo/OneDrive/Escritorio/Alimentus.txt");
+            fichero = new FileWriter("./Alimentus.txt");
             pw = new PrintWriter(fichero);
                pw.println("--------Datos del Usuario--------");
                pw.println("__________________________________\n");
